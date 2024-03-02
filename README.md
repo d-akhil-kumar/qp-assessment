@@ -7,23 +7,25 @@ Powered by TypeScript and Node.js with Express, its backend service seamlessly s
 ## Features
 
 - Admin
-    -- Admin login
-    -- bulk create, categorize, and manage items
-    -- Maintain inventory seamlessly
-    -- Remove items with ease
-    -- Access comprehensive item details
+    - Admin login
+    - bulk create, categorize, and manage items
+    - Maintain inventory seamlessly
+    - Remove items with ease
+    - Access comprehensive item details
+
 
 - Customer
-    -- SignIn/SignUp functionality
-    -- Browse and search items and also by category
-    -- Manage cart
-    -- Streamlined order processing
+    - SignIn/SignUp functionality
+    - Browse and search items and also by category
+    - Manage cart
+    - Streamlined order processing
+
 
 - Cross-cutting concerns
-    -- Authorisation and Authentication
-    -- Secure password encryption
-    -- Effective error and request logging
-    -- Rigorous request validation
+    - Authorisation and Authentication
+    - Secure password encryption
+    - Effective error and request logging
+    - Rigorous request validation
 
 
 ## Tech
