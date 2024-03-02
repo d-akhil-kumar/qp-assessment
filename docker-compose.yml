@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  server:
+    container_name: server
+    restart: always
+    build: .
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - postgres
+    environment:
+      - DB_HOST=postgres
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:${DB_PORT}"
+    volumes:
+      - data:/data/db
+
+volumes:
+  data: {}
