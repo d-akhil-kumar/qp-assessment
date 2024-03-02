@@ -74,4 +74,7 @@ This command initializes data for testing and interacting with the services.
 Or, you can logged in as an admin to create items and categories
 
 
+API documentation (for a rough idea)
+> https://documenter.getpostman.com/view/6682277/2sA2xb6vMo
+
 **Enjoy the work, and have fun!**
