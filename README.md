@@ -18,7 +18,7 @@ Powered by TypeScript and Node.js with Express, its backend service seamlessly s
     - SignIn/SignUp functionality
     - Browse and search items and also by category
     - Manage cart
-    - Streamlined order processing
+    - Book multiple grocery items in a single order
 
 
 - Cross-cutting concerns
